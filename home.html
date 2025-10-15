@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Douglas Fly Rods • Handcrafted Bamboo by Terry W. Douglas</title>
+    <meta name="description" content="Handcrafted Tonkin?bamboo fly rods by Terry W. Douglas. Built to fish, tuned to you. Custom lengths and line weights with premium components." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:wght@600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Fraunces', 'Georgia', 'serif']
+          },
+          colors: {
+            wood: {
+              50: '#faf7f3',
+              100: '#efe9df',
+              200: '#e1d2bb',
+              300: '#cfb088',
+              400: '#bd8f5e',
+              500: '#a8733f',
+              600: '#8d5c31',
+              700: '#6f4727',
+              800: '#573a23',
+              900: '#3c2818'
+            }
+          },
+          boxShadow: {
+            soft: '0 10px 30px -10px rgba(0,0,0,.25)'
+          }
+        }
+      }
+    }
+    </script>
+    <style>
+        .container-px {
+            padding-left: clamp(1rem,4vw,2rem);
+            padding-right: clamp(1rem,4vw,2rem)
+        }
+
+        .glass {
+            backdrop-filter: saturate(140%) blur(8px);
+            background: rgba(255,255,255,.6)
+        }
+
+        .dark .glass {
+            background: rgba(20,20,20,.55)
+        }
+    </style>
+</head>
+<body class="bg-wood-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-black/5 dark:border-white/5 bg-white/80 dark:bg-stone-950/75 backdrop-blur">
+        <div class="max-w-7xl mx-auto flex items-center justify-between h-16 container-px">
+            <a href="#home" class="flex items-center gap-3 group">
+                <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-wood-700 text-white shadow-soft">DF</span>
+                <div>
+                    <div class="font-serif text-lg leading-none">Douglas Fly Rods</div>
+                    <div class="text-xs opacity-70 -mt-0.5">Handcrafted by Terry W. Douglas</div>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-sm">
+                <a href="#rods" class="hover:text-wood-700">Rods</a>
+                <a href="#process" class="hover:text-wood-700">Process</a>
+                <a href="#gallery" class="hover:text-wood-700">Gallery</a>
+                <a href="#about" class="hover:text-wood-700">About</a>
+                <a href="#contact" class="hover:text-wood-700">Contact</a>
+            </nav>
+            <a href="#order" class="hidden sm:inline-flex items-center rounded-xl bg-wood-700 text-white px-4 py-2 text-sm font-medium shadow-soft hover:bg-wood-600">Order a Custom Rod</a>
+            <button id="navBtn" class="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-xl border border-black/10 dark:border-white/10" aria-label="Open Menu">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+            </button>
+        </div>
+        <div id="mobileNav" class="md:hidden hidden border-t border-black/5 dark:border-white/5">
+            <div class="container-px py-3 grid gap-2 text-sm">
+                <a href="#rods" class="py-2">Rods</a>
+                <a href="#process" class="py-2">Process</a>
+                <a href="#gallery" class="py-2">Gallery</a>
+                <a href="#about" class="py-2">About</a>
+                <a href="#contact" class="py-2">Contact</a>
+                <a href="#order" class="mt-2 inline-flex items-center justify-center rounded-xl bg-wood-700 text-white px-4 py-2 font-medium shadow-soft">Order a Custom Rod</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="relative isolate overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center py-16 lg:py-24 container-px">
+            <div>
+                <h1 class="font-serif text-4xl/tight md:text-5xl/tight">Bamboo rods, built to fish.<br /><span class="text-wood-700">Hand?tuned to you.</span></h1>
+                <p class="mt-4 text-base/7 md:text-lg/8 text-stone-600 dark:text-stone-300">Custom Tonkin?bamboo fly rods crafted by Terry W. Douglas—premium hardware, duplicate tips, and balanced actions for creeks to tailwaters.</p>
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="#rods" class="inline-flex items-center rounded-xl bg-wood-700 text-white px-4 py-2 font-medium shadow-soft hover:bg-wood-600">Explore Rods</a>
+                    <a href="#process" class="inline-flex items-center rounded-xl border border-black/10 dark:border-white/10 px-4 py-2 font-medium">See the Process</a>
+                </div>
+                <dl class="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-6 text-sm">
+                    <div><dt class="opacity-60">Lengths / Weights</dt><dd class="font-medium">6'?3wt • 7'?4wt • 7'6"?5wt • 8'?6/7wt • 9'?9wt</dd></div>
+                    <div><dt class="opacity-60">Components</dt><dd class="font-medium">Nickel silver, silk wraps, flor?grade cork</dd></div>
+                    <div><dt class="opacity-60">Each Rod</dt><dd class="font-medium">Includes duplicate tip + aluminum tube</dd></div>
+                </dl>
+            </div>
+            <div class="relative">
+                <div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-soft bg-wood-900/5 border border-black/10 dark:border-white/10"></div>
+                <div class="absolute -bottom-6 -left-6 bg-white/70 dark:bg-stone-900/70 backdrop-blur rounded-2xl p-4 border border-black/10 dark:border-white/10 shadow-soft">
+                    <p class="text-sm"><span class="font-medium">Lead time:</span> typically 10–12 weeks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rods -->
+    <section id="rods" class="py-14 lg:py-20 bg-white dark:bg-stone-950">
+        <div class="max-w-7xl mx-auto container-px">
+            <div class="flex items-end justify-between gap-4 mb-8">
+                <h2 class="font-serif text-3xl">Rod Lineup</h2>
+                <a href="#order" class="text-sm font-medium text-wood-700 hover:underline">Start an order ?</a>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card Template -->
+                <article class="rounded-2xl border border-black/10 dark:border-white/10 overflow-hidden bg-gradient-to-b from-white to-wood-50 dark:from-stone-900 dark:to-stone-900/60">
+                    <div class="aspect-[3/2] bg-wood-900/10"></div>
+                    <div class="p-5">
+                        <h3 class="font-medium">6' • 3?weight — Creek</h3>
+                        <p class="mt-1 text-sm opacity-80">Feather?light precision for high?stick and short leaders in tight blue lines.</p>
+                        <ul class="mt-4 text-sm space-y-1">
+                            <li>• Progressive action, easy loading</li>
+                            <li>• Recoil guides, silk wraps</li>
+                            <li>• Flor?grade half?wells cork</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="rounded-2xl border border-black/10 dark:border-white/10 overflow-hidden bg-gradient-to-b from-white to-wood-50 dark:from-stone-900 dark:to-stone-900/60">
+                    <div class="aspect-[3/2] bg-wood-900/10"></div>
+                    <div class="p-5">
+                        <h3 class="font-medium">7' • 4?weight — Trout</h3>
+                        <p class="mt-1 text-sm opacity-80">All?day dry?fly rod with effortless roll casts and soft landings.</p>
+                        <ul class="mt-4 text-sm space-y-1">
+                            <li>• Nickel silver ferrules</li>
+                            <li>• Up?locking reel seat (NiS or anodized Al)</li>
+                            <li>• Duplicate tip included</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="rounded-2xl border border-black/10 dark:border-white/10 overflow-hidden bg-gradient-to-b from-white to-wood-50 dark:from-stone-900 dark:to-stone-900/60">
+                    <div class="aspect-[3/2] bg-wood-900/10"></div>
+                    <div class="p-5">
+                        <h3 class="font-medium">7'6" • 5?weight — Versatile</h3>
+                        <p class="mt-1 text-sm opacity-80">From pocket water to tailouts—your do?most bamboo.</p>
+                        <ul class="mt-4 text-sm space-y-1">
+                            <li>• Hard chrome snakes</li>
+                            <li>• Burled wood spacer options</li>
+                            <li>• Aluminum tube + rod sock</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="rounded-2xl border border-black/10 dark:border-white/10 overflow-hidden bg-gradient-to-b from-white to-wood-50 dark:from-stone-900 dark:to-stone-900/60">
+                    <div class="aspect-[3/2] bg-wood-900/10"></div>
+                    <div class="p-5">
+                        <h3 class="font-medium">8' • 6/7?weight — Warmwater</h3>
+                        <p class="mt-1 text-sm opacity-80">Smallmouth, carp, and big Western dries—power with feel.</p>
+                        <ul class="mt-4 text-sm space-y-1">
+                            <li>• Double uplocking rings</li>
+                            <li>• Nylon bushings for secure clamp</li>
+                            <li>• Balanced swing weight</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="rounded-2xl border border-black/10 dark:border-white/10 overflow-hidden bg-gradient-to-b from-white to-wood-50 dark:from-stone-900 dark:to-stone-900/60">
+                    <div class="aspect-[3/2] bg-wood-900/10"></div>
+                    <div class="p-5">
+                        <h3 class="font-medium">9' • 9?weight — Flats / Bass</h3>
+                        <p class="mt-1 text-sm opacity-80">Heavier lines, windy days, and big bugs without losing bamboo soul.</p>
+                        <ul class="mt-4 text-sm space-y-1">
+                            <li>• Salt?ready component options</li>
+                            <li>• Polyurethane varnish finish</li>
+                            <li>• Built to fish, not display</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="py-14 lg:py-20 bg-wood-50 dark:bg-stone-900/30">
+        <div class="max-w-7xl mx-auto container-px">
+            <div class="mb-10">
+                <h2 class="font-serif text-3xl">How Your Rod is Made</h2>
+                <p class="mt-2 text-stone-600 dark:text-stone-300 max-w-2xl">From a single 12?foot culm of Tonkin bamboo to a tuned two?piece rod with duplicate tip—here’s the journey.</p>
+            </div>
+            <ol class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
+                <li class="rounded-2xl p-5 border border-black/10 dark:border-white/10 bg-white/60 dark:bg-stone-900/40">
+                    <h3 class="font-medium">1) Split & Straighten</h3>
+                    <p class="mt-1 opacity-80">Culms are flamed, split into strips, and heat?straightened for grain integrity.</p>
+                </li>
+                <li class="rounded-2xl p-5 border border-black/10 dark:border-white/10 bg-white/60 dark:bg-stone-900/40">
+                    <h3 class="font-medium">2) Plane & Taper</h3>
+                    <p class="mt-1 opacity-80">Precision planing to final tapers that define the action and recovery.</p>
+                </li>
+                <li class="rounded-2xl p-5 border border-black/10 dark:border-white/10 bg-white/60 dark:bg-stone-900/40">
+                    <h3 class="font-medium">3) Bind & Cure</h3>
+                    <p class="mt-1 opacity-80">Sections are glued, bound, and cured, then hand?sanded to spec.</p>
+                </li>
+                <li class="rounded-2xl p-5 border border-black/10 dark:border-white/10 bg-white/60 dark:bg-stone-900/40">
+                    <h3 class="font-medium">4) Wrap & Finish</h3>
+                    <p class="mt-1 opacity-80">Silk wraps, varnish, cork shaping, hardware fitment, and final tuning.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-14 lg:py-20">
+        <div class="max-w-7xl mx-auto container-px">
+            <div class="flex items-end justify-between gap-4 mb-8">
+                <h2 class="font-serif text-3xl">On the Water</h2>
+                <a href="#contact" class="text-sm font-medium text-wood-700 hover:underline">Submit your photo ?</a>
+            </div>
+            <div class="columns-2 md:columns-3 gap-4 [column-fill:_balance]
+                 [&>
+                img]:mb-4 [&>img]:rounded-2xl [&>img]:shadow-soft">
+                <img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?q=80&w=1200&auto=format&fit=crop" alt="Angler casting at dawn" />
+                <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?q=80&w=1200&auto=format&fit=crop" alt="Trout water riffles" />
+                <img src="https://images.unsplash.com/photo-1463053323010-6b7474c7ed7a?q=80&w=1200&auto=format&fit=crop" alt="Creek with pocket water" />
+                <img src="https://images.unsplash.com/photo-1495490140452-5a226aef25d0?q=80&w=1200&auto=format&fit=crop" alt="Bamboo rod detail" />
+                <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49b?q=80&w=1200&auto=format&fit=crop" alt="Mountains and river" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-14 lg:py-20 bg-white dark:bg-stone-950">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center container-px">
+            <div>
+                <h2 class="font-serif text-3xl">About Terry</h2>
+                <p class="mt-3 text-stone-700 dark:text-stone-300">I build every rod by hand with premium components—because bamboo deserves to be fished. Each build is tuned to how you cast and where you fish, then finished to last generations.</p>
+                <ul class="mt-6 space-y-2 text-sm">
+                    <li>• Email: <a class="text-wood-700 underline" href="mailto:douglasflyrods@gmail.com">douglasflyrods@gmail.com</a></li>
+                    <li>• Typical lead time: 10–12 weeks</li>
+                    <li>• Each rod includes a duplicate tip and aluminum tube</li>
+                </ul>
+            </div>
+            <div class="relative">
+                <div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-soft bg-wood-900/5 border border-black/10 dark:border-white/10"></div>
+                <div class="absolute -bottom-6 -right-6 bg-white/70 dark:bg-stone-900/70 backdrop-blur rounded-2xl p-4 border border-black/10 dark:border-white/10 shadow-soft max-w-xs">
+                    <p class="text-sm">“It’s not the size of the fish, it’s the size of the smile.”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order + Contact -->
+    <section id="order" class="py-14 lg:py-20 bg-wood-50/60 dark:bg-stone-900/40">
+        <div class="max-w-5xl mx-auto container-px">
+            <h2 class="font-serif text-3xl">Start Your Build</h2>
+            <p class="mt-2 text-stone-700 dark:text-stone-300">Tell me about your water, flies, and casting style—I’ll recommend a taper and component set, then confirm pricing and timeline.</p>
+            <form id="contact" class="mt-8 grid md:grid-cols-2 gap-6" onsubmit="handleSubmit(event)">
+                <div class="grid gap-2">
+                    <label class="text-sm">Name</label>
+                    <input required class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="name" />
+                </div>
+                <div class="grid gap-2">
+                    <label class="text-sm">Email</label>
+                    <input required type="email" class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="email" />
+                </div>
+                <div class="grid gap-2 md:col-span-2">
+                    <label class="text-sm">What do you want to fish?</label>
+                    <textarea rows="5" class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="message" placeholder="E.g., Clinch River tailwater trout, smallmouth on the Holston, dry?dropper rigs, long leaders, etc."></textarea>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 md:col-span-2">
+                    <div class="grid gap-2">
+                        <label class="text-sm">Preferred length</label>
+                        <select class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="length">
+                            <option>6'</option>
+                            <option>7'</option>
+                            <option>7'6"</option>
+                            <option>8'</option>
+                            <option>9'</option>
+                        </select>
+                    </div>
+                    <div class="grid gap-2">
+                        <label class="text-sm">Line weight</label>
+                        <select class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="weight">
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>9</option>
+                        </select>
+                    </div>
+                    <div class="grid gap-2">
+                        <label class="text-sm">Timeline</label>
+                        <select class="rounded-xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-stone-900/60 px-4 py-3" name="timeline">
+                            <option>Flexible</option>
+                            <option>As soon as possible</option>
+                            <option>Gift date</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="md:col-span-2 flex items-center justify-between gap-4">
+                    <p class="text-xs opacity-70">Submitting will open your mail client with a pre?filled message (no third?party form services).</p>
+                    <button class="inline-flex items-center rounded-xl bg-wood-700 text-white px-5 py-3 font-medium shadow-soft hover:bg-wood-600">Submit Inquiry</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-black/10 dark:border-white/10">
+        <div class="max-w-7xl mx-auto container-px text-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© <span id="year"></span> Terry W. Douglas</p>
+            <p>Email: <a class="text-wood-700 underline" href="mailto:douglasflyrods@gmail.com">douglasflyrods@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+    const btn = document.getElementById('navBtn');
+    const mobile = document.getElementById('mobileNav');
+    btn?.addEventListener('click',()=>mobile.classList.toggle('hidden'))
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const params = new URLSearchParams();
+      for (const [k,v] of data.entries()) params.append(k, v);
+      const subject = encodeURIComponent('Custom Bamboo Rod Inquiry');
+      const body = encodeURIComponent(
+        `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nPreferred length: ${data.get('length')}\nLine weight: ${data.get('weight')}\nTimeline: ${data.get('timeline')}\n\nFishing notes:\n${data.get('message')}`
+      );
+      window.location.href = `mailto:douglasflyrods@gmail.com?subject=${subject}&body=${body}`;
+    }
+    </script>
+</body>
+</html>
